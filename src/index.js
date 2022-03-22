@@ -3,7 +3,7 @@ import './style.css';
 const todoList = document.querySelector('.items');
 const todos = [
   {
-    description: 'Take a walk ',
+    description: 'Clean the room',
     completed: false,
     index: 0,
   },
