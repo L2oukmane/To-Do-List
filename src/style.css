@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f6f6f6;
+  font-family: "Poppins", sans-serif;
+}
+
+.toDo {
+  width: 100%;
+}
+
+.toDo-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid black;
+  background: #fff;
+  width: 40%;
+  height: 100%;
+  margin-top: 10%;
+  box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.438);
+}
+
+.toDo-container h1 {
+  font-size: 25px;
+  font-weight: 900;
+  padding: 15px;
+}
+
+.listForm {
+  list-style: none;
+  width: 100%;
+}
+
+.input {
+  font-size: 18px;
+  outline: none;
+  border: none;
+  font-style: italic;
+  font-weight: 100;
+  padding: 20px 20px;
+  width: 100%;
+}
+
+.breakline {
+  width: 100%;
+}
+
+.clear-btn {
+  align-self: center;
+  text-align: center;
+  background: #f6f6f6;
+  color: #575757;
+  width: 94.5%;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.fa-square {
+  margin-right: 15px;
+  cursor: pointer;
+  color: #575757ab;
+}
+
+.threePoints {
+  transform: rotate(90deg);
+  margin-right: 0;
+  margin-left: auto;
+  cursor: pointer;
+  color: #575757ab;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.Enter {
+  margin-right: 20px;
+  margin-left: auto;
+  cursor: pointer;
+  color: #575757ab;
+}
+
+.loop {
+  margin-right: 20px;
+  margin-left: auto;
+  cursor: pointer;
+  color: #575757ab;
+}
