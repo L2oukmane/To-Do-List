@@ -103,6 +103,11 @@ body {
   width: 100%;
 }
 
+.list-item p.completed {
+  text-decoration-line: line-through;
+  color: rgba(0, 0, 0, 0.45);
+}
+
 .list-item {
   display: flex;
   align-items: center;
