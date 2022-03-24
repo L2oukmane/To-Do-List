@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f0f384;
+  background: #e0dfe2;
   font-family: "Poppins", sans-serif;
 }
 
@@ -23,16 +23,27 @@ body {
   align-items: flex-start;
   border: 1px solid black;
   background: #fff;
-  width: 40%;
+  width: 60%;
   height: 100%;
   margin-top: 10%;
   box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.438);
 }
 
-.todo-list h1 {
+.heading {
+  background: radial-gradient(
+    circle,
+    rgba(9, 9, 121, 1) 20%,
+    rgba(2, 0, 36, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.heading h1 {
   font-size: 25px;
   font-weight: 900;
   padding: 15px;
+  width: 100%;
+  color: #fff;
 }
 
 .listForm {
@@ -57,15 +68,19 @@ body {
 .clear-btn {
   align-self: center;
   text-align: center;
-  background: #f6f6f6;
-  color: #575757;
-  width: 94.5%;
+  background: radial-gradient(
+    circle,
+    rgba(9, 9, 121, 1) 20%,
+    rgba(2, 0, 36, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #fff;
   padding: 15px;
   cursor: pointer;
 }
 
 .clear-btn:hover {
-  color: #000;
+  color: #fd1d1d;
   text-decoration: underline;
 }
 
@@ -75,29 +90,39 @@ body {
   width: 100%;
 }
 
+.second-part {
+  width: 100%;
+}
+
 .items {
   display: flex;
   flex-direction: column;
 }
 
-.item {
-  display: flex;
-  align-items: center;
-  padding: 20px 20px;
-}
-
-.fa-square {
-  margin-right: 15px;
+.update-status {
   cursor: pointer;
-  color: #575757ab;
+  color: #fdbb2d;
 }
 
-.threePoints {
-  transform: rotate(90deg);
-  margin-right: 0;
+.delete-activity {
+  margin-right: 15px;
   margin-left: auto;
   cursor: pointer;
-  color: #575757ab;
+  color: #fdbb2d;
+}
+
+.activity {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background: #3670ec;
+  color: #fff;
 }
 
 .input-container {
@@ -116,12 +141,12 @@ form {
   margin-right: 20px;
   margin-left: auto;
   cursor: pointer;
-  color: #575757ab;
+  color: rgb(131, 58, 180);
 }
 
 .loop {
   margin-right: 20px;
   margin-left: auto;
   cursor: pointer;
-  color: #575757ab;
+  color: rgb(131, 58, 180);
 }
