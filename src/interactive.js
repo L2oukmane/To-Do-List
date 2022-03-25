@@ -90,14 +90,14 @@ class TaskList {
     this.showList();
   }
 
-  clearCompleted() {
-    this.list = this.list.filter((activity) => activity.completed === false);
-    this.showList();
-  }
-
   editTask(index, description) {
     this.list[index].description = description;
     this.saveData();
+  }
+
+  clearCompleted() {
+    this.list = this.list.filter((activity) => activity.completed === false);
+    this.showList();
   }
 
   taskActions() {
