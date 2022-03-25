@@ -1,5 +1,5 @@
 import './style.css';
-import TaskList from './AddRemove.js';
+import TaskList from './interactive.js';
 
 const tasks = new TaskList();
 

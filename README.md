@@ -1,7 +1,7 @@
 # To Do List| MODULE-II
 
-> This simple project being built in our second module of our curriculum at microverse. its a is To Do List were you are able to add and remove a note from a list
-> Our goal here is to Build a To Do List with add and remove feature from scratch using JavaScript.
+> This simple project being built in our second module of our curriculum at microverse. its a is To Do List were you are able to: add, remove, marke as completed and clear all completed notes from the To Do list.
+> Our goal here is to Build a simple interactive To Do List app from scratch using JavaScript.
 
 ### Features implemented so far are:
 
