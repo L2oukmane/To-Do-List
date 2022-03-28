@@ -10,7 +10,8 @@
 - Remove book feature
 - Saving current state of book list to local storage
 - Live date and time update using luxon library
-- take a look at what i'v built [Live Demo](https://l2oukmane.github.io/To-Do-List/). 🙂
+  
+   #### take a look at what i'v built [Live Demo](https://l2oukmane.github.io/To-Do-List/). 🙂
 
 
 ## Built With
