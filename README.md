@@ -9,7 +9,7 @@
 - Add book feature
 - Remove book feature
 - Saving current state of book list to local storage
-- Live date and time update using luxos library
+- Live date and time update using luxon library
 
 ## Built With
 
