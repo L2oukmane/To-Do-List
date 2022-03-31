@@ -49,25 +49,3 @@ describe('add and remove', () => {
     expect(removeTask.list).toHaveLength(0);
   });
 });
-
-describe('update status', () => {
-  test('update task', () => {
-    const updateList = new TaskList();
-    updateList.addTask('Test');
-    updateList.updateStatus(0);
-    expect(updateList.list[0].completed).toBe(true);
-  });
-
-  test('clear all completed', () => {
-    const updateList = new TaskList();
-    updateList.clearCompleted();
-    expect(updateList.list).toHaveLength(0);
-  });
-
-  test('edit task', () => {
-    const updateList = new TaskList();
-    updateList.addTask('Test');
-    updateList.editTask(0, 'Testing');
-    expect(updateList.list[0].description).toMatch(/Testing/);
-  });
-});
