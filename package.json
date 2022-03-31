@@ -4,7 +4,7 @@
   "description": "> This simple project being built in our second module of our curriculum at microverse. its a is To Do List were you are able to: add, remove, marke as completed and clear all completed notes from the To Do list.\r > Our goal here is to Build a simple interactive To Do List app from scratch using JavaScript.",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "build": "webpack"
@@ -21,8 +21,11 @@
   },
   "homepage": "https://github.com/L2oukmane/To-Do-List#readme",
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
     "@babel/plugin-transform-modules-commonjs": "^7.17.7",
     "babel-eslint": "^10.1.0",
+    "babel-install": "2.1.0",
     "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
